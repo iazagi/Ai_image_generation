@@ -11,9 +11,9 @@ const RenderCards = ({ data, title }) => {
 };
 
 const Home = () => {
-  const [loading, setLoading] = useState(false);
+  const [loading, setLoading] = useState(true);
   const [allPosts, setAllPosts] = useState(null);
-  const [searchText, setSearchText] = useState('adada');
+  const [searchText, setSearchText] = useState('');
   return (
     <section className="max-w-7xl mx-auto">
       <div>
